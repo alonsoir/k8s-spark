@@ -1,0 +1,24 @@
+version: '2'
+services:
+  storage:
+    # image: erangaeb/rahasak-storage:0.1
+    image: cassandra:4.0.7
+    container_name: storage
+    environment:
+        - CASSANDRA_BROADCAST_ADDRESS=${CASSANDRA_BROADCAST_ADDRESS}
+        - CASSANDRA_SEEDS=${CASSANDRA_SEEDS}
+    ports:
+        - 7000:7000
+        - 7001:7001
+        - 7199:7199
+        - 9042:9042
+        - 9160:9160
+        - 9200:9200
+        - 9300:9300
+
+
+  sjobs:
+    image: erangaeb/k8spark-sjobs:0.1
+    container_name: sjobs
+    ports:
+      - 8000:8000

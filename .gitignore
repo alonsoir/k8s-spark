@@ -1,0 +1,12 @@
+sjobs/target/
+sjobs/lib_managed/
+sjobs/src_managed/
+sjobs/project/boot/
+sjobs/project/target/
+sjobs/project/project/
+sjobs/.history
+sjobs/.cache
+sjobs/.idea/
+sjobs/.idea_modules/
+
+*.DS_Store
