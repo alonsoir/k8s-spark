@@ -18,7 +18,8 @@ services:
 
 
   sjobs:
-    image: erangaeb/k8spark-sjobs:0.1
+    # image: erangaeb/k8spark-sjobs:0.1
+    image: cassandra:4.0.7
     container_name: sjobs
     ports:
       - 8000:8000

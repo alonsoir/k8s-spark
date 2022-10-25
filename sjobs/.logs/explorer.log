@@ -1,0 +1,256 @@
+[2021-10-24 23:23:02.002] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] SETTINGS: ack=false, settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:23:02.017] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:23:02.028] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] SETTINGS: ack=false, settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:23:02.030] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:23:02.031] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:23:02.052] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:23:02.075] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] HEADERS: streamId=3, headers=GrpcHttp2RequestHeaders[:path: /com.rahasak.proto.DocumentService/streamDocuments, :authority: 192.168.1.44:9000, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-java-netty/1.4.0, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:23:02.096] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0131
+------------------------------------
+[2021-10-24 23:23:02.207] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] HEADERS: streamId=3, headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:23:02.216] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=5, bytes=0000000000
+------------------------------------
+[2021-10-24 23:23:02.774] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0132
+------------------------------------
+[2021-10-24 23:23:02.776] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=5, bytes=0000000000
+------------------------------------
+[2021-10-24 23:23:03.775] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0133
+------------------------------------
+[2021-10-24 23:23:03.777] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=5, bytes=0000000000
+------------------------------------
+[2021-10-24 23:23:04.776] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0134
+------------------------------------
+[2021-10-24 23:23:04.777] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xb869fcd6, L:/192.168.1.44:9000 - R:/192.168.1.44:63650] DATA: streamId=3, padding=0, endStream=false, length=5, bytes=0000000000
+------------------------------------
+[2021-10-24 23:24:38.992] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] SETTINGS: ack=false, settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:24:39.010] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:24:39.021] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] SETTINGS: ack=false, settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:24:39.023] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:24:39.024] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:24:39.028] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:24:39.053] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] HEADERS: streamId=3, headers=GrpcHttp2RequestHeaders[:path: /com.rahasak.proto.DocumentService/streamDocuments, :authority: 192.168.1.44:9000, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-java-netty/1.4.0, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:24:39.070] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0131
+------------------------------------
+[2021-10-24 23:24:39.085] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] HEADERS: streamId=3, headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:24:39.097] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01311205626c6f6231
+------------------------------------
+[2021-10-24 23:24:39.790] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0132
+------------------------------------
+[2021-10-24 23:24:40.100] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01321205626c6f6232
+------------------------------------
+[2021-10-24 23:24:40.796] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0133
+------------------------------------
+[2021-10-24 23:24:41.104] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01331205626c6f6234
+------------------------------------
+[2021-10-24 23:24:41.794] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0134
+------------------------------------
+[2021-10-24 23:24:42.107] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xa7ccdbe3, L:/192.168.1.44:9000 - R:/192.168.1.44:63671] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01341205626c6f6231
+------------------------------------
+[2021-10-24 23:25:14.352] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] SETTINGS: ack=false, settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:25:14.353] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:25:14.371] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] SETTINGS: ack=false, settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:25:14.372] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:25:14.372] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:25:14.381] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:25:14.402] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] HEADERS: streamId=3, headers=GrpcHttp2RequestHeaders[:path: /com.rahasak.proto.DocumentService/streamDocuments, :authority: 192.168.1.44:9000, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-java-netty/1.4.0, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:25:14.402] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0131
+------------------------------------
+[2021-10-24 23:25:14.403] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] HEADERS: streamId=3, headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:25:14.404] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01311205626c6f6231
+------------------------------------
+[2021-10-24 23:25:15.301] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0132
+------------------------------------
+[2021-10-24 23:25:15.405] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01321205626c6f6232
+------------------------------------
+[2021-10-24 23:25:16.303] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0133
+------------------------------------
+[2021-10-24 23:25:16.408] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01331205626c6f6234
+------------------------------------
+[2021-10-24 23:25:17.305] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0134
+------------------------------------
+[2021-10-24 23:25:17.411] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0xf414f233, L:/192.168.1.44:9000 - R:/192.168.1.44:63680] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01341205626c6f6231
+------------------------------------
+[2021-10-24 23:35:47.590] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] SETTINGS: ack=false, settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:35:47.609] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:35:47.619] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] SETTINGS: ack=false, settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+------------------------------------
+[2021-10-24 23:35:47.620] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:35:47.621] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] WINDOW_UPDATE: streamId=0, windowSizeIncrement=983041
+------------------------------------
+[2021-10-24 23:35:47.625] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] SETTINGS: ack=true
+------------------------------------
+[2021-10-24 23:35:47.670] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] HEADERS: streamId=3, headers=GrpcHttp2RequestHeaders[:path: /com.rahasak.proto.DocumentService/streamDocuments, :authority: 192.168.1.44:9000, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-java-netty/1.4.0, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:35:47.691] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0131
+------------------------------------
+[2021-10-24 23:35:47.711] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] HEADERS: streamId=3, headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip], streamDependency=0, weight=16, exclusive=false, padding=0, endStream=false
+------------------------------------
+[2021-10-24 23:35:47.724] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01311205626c6f6231
+------------------------------------
+[2021-10-24 23:35:48.349] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0132
+------------------------------------
+[2021-10-24 23:35:48.726] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01321205626c6f6232
+------------------------------------
+[2021-10-24 23:35:49.350] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0133
+------------------------------------
+[2021-10-24 23:35:49.728] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01331205626c6f6234
+------------------------------------
+[2021-10-24 23:35:50.350] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------INBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=8, bytes=00000000030a0134
+------------------------------------
+[2021-10-24 23:35:50.731] [DEBUG] [io.grpc.netty.NettyServerHandler] 
+----------------OUTBOUND--------------------
+[id: 0x81612ce5, L:/192.168.1.44:9000 - R:/192.168.1.44:63790] DATA: streamId=3, padding=0, endStream=false, length=15, bytes=000000000a0a01341205626c6f6231
+------------------------------------
